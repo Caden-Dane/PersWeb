@@ -1,0 +1,27 @@
+.logo{
+  width: 15vw;
+  height: 10vh;
+}
+
+.navbar{
+  position: fixed;
+}
+
+.imgInCarrousel{
+  height: 90vh;
+  width: 80%;
+}
+
+.quienesSomos{
+  max-width: 100%;
+  align-items: center;
+  /* margin: 0 10vw; */
+}
+
+.quienesSomosImg{
+  height: 100%;
+}
+
+.quienesSomosImgContainer{
+  min-width: 100px;
+}

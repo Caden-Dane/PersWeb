@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Carroceria</title>
+</head>
+
+<header>
+  <!-- Start of Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <!-- Navbar logo -->
+        <a class="navbar-brand" href="#">
+          <img src="./resources/logo/logo_carroceria.svg" alt="Logo de Carrocería" class="logo">
+        </a>
+      <!-- End of Navbar logo -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End of Navbar -->
+
+</header>
+<body>
+
+    <!-- Carrousel from the start -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="./resources/img/corvette.jpg" class="d-block w-100 imgInCarrousel" alt="Corvette en carrousel de imagenes">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="./resources/img/jeep-repair.jpg" class="d-block w-100 imgInCarrousel " alt="Jeep en carrousel de imagenes">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="./resources/img/mercedes.jpg" class="d-block w-100 imgInCarrousel" alt="Mercedes en carrousel de imagenes">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="./resources/img/client.jpg" class="d-block w-100 imgInCarrousel" alt="Miembro del equipo recibiendo llave de cliente en carrousel de imagenes">
+        </div>
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End of Carrousel from start -->
+
+
+    <!-- Start of Quienes Somos  -->
+
+    <div class="card m-5 quienesSomos">
+      <div class="row g-0">
+        <div class="col-lg-4 col-md-7 quienesSomosImgContainer">
+          <img src="./resources/img/inspector.jpg" class="img-fluid rounded-start quienesSomosImg" alt="Foto de Inspector de Carroceria">
+        </div>
+        <div class="col-lg-8 col-md-5">
+          <div class="card-body">
+            <h5 class="card-title">Quienes Somos</h5>
+            <p class="card-text">
+              Con más de 20 años en el mercado formando
+              parte de la familia Tokyo Motors S.A. y Eurocar
+              S.A. representando las mejores marcas y,
+              brindando el mejor servicio y calidad a nuestra
+              amplia cartera de clientes a quienes
+              expresamos nuestro profundo agradecimiento
+              por acompañarnos en el crecimiento y ser el
+              pilar principal que sostiene nuestra posición en
+              el mercado. 
+              <br/>
+              <br/>
+              Deseando continuar con esta excelente
+              relación comercial lo invitamos a continuar
+              formando parte de la gran familia de
+              CARROCERÍA garantizándole el mejor servicio
+              de calidad, que acompañen su crecimiento
+              comercial.
+            </p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of Quienes Somos -->
+
+  
+
+<!-- Bootstrap JS   -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+</body>
+</html>
