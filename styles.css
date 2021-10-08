@@ -1,6 +1,9 @@
+
+/* Navbar  */
 .logo{
   width: 15vw;
   height: 10vh;
+  margin: -15px;
 }
 
 .navbar{
@@ -8,7 +11,26 @@
   top: 0;
   width: 100%;
   z-index: 1;
+  background-color: #1F3556;
 }
+
+.navbar a{
+  color: #FFFFFF;
+}
+
+.navbar ul{
+  background-color: #1F3556;
+}
+
+.nav-item :hover{
+  color: #CFAA58;
+}
+
+.active{
+  color: #CFAA58;
+}
+
+/* End of Navbar  */
 
 .imgInCarrousel{
   height: 90vh;
