@@ -50,6 +50,7 @@ margin-top: 10vh;
 /* End of Carrousel */
 
 
+/* Start of Quienes Somos */
 .quienesSomos{
   max-width: 100%;
   align-items: center;
@@ -63,3 +64,5 @@ margin-top: 10vh;
 .quienesSomosImgContainer{
   min-width: 100px;
 }
+/* End of Quienes Somos */
+
