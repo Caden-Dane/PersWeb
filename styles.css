@@ -30,10 +30,25 @@
 }
 /* End of Navbar  */
 
-.imgInCarrousel{
-  height: 90vh;
-  width: 80%;
+
+/* Start of Carrousel */
+.carousel{
+z-index: 0;
+margin-top: 10vh;
 }
+
+.carousel-caption{
+  text-align: left;
+  
+}
+
+@media only screen and (min-width: 1190px) {
+    .carousel-item{
+    height: 80vh;
+  }
+}
+/* End of Carrousel */
+
 
 .quienesSomos{
   max-width: 100%;
