@@ -106,3 +106,13 @@ font-weight: bold;
 }
 
 /* End of Values (Mision y Vision) */
+
+
+/* Start of Cotization */
+
+.serviceSelector{
+  height: 20vh;
+  overflow-y: scroll;
+}
+
+/* End of Contization */
