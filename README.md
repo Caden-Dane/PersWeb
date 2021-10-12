@@ -13,4 +13,4 @@ Most of the segments are well commented for you to replace the information, and 
 If you have any questions, feel free to hit me up via LinkedIn (link in my profile). I'd be happy to help. 
 
 
-### OBS: It's not finished!
+##### OBS: It's not finished! I published it on GH for live feedback.
