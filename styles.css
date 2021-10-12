@@ -66,3 +66,32 @@ margin-top: 10vh;
 }
 /* End of Quienes Somos */
 
+
+/* Servicios */
+.servicioCard{
+  padding: 2%;
+}
+
+.segmentTitle{
+  text-align: center;
+}
+
+.serviciosContainer{
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  width: 100%;
+  justify-content: center;
+}
+
+.list-group{
+  width: 20vw;
+}
+
+.dataContainer{
+  width: 50vw;
+  overflow-y: scroll;
+  margin-left: 2%;
+}
+/* End of Servicios */
+
