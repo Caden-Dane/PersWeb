@@ -1,9 +1,8 @@
-
 /* Navbar  */
 .logo{
   width: 15vw;
   height: 10vh;
-  margin: -15px;
+  margin: -10px;
 }
 
 .navbar{
@@ -29,7 +28,6 @@
 .active{
   color: #CFAA58;
 }
-
 /* End of Navbar  */
 
 .imgInCarrousel{
