@@ -95,3 +95,14 @@ margin-top: 10vh;
 }
 /* End of Servicios */
 
+/* Start of Values (Mision y Vision) */
+
+.valuesTitle{
+font-weight: bold;
+}
+
+.valuesContent{
+  margin: 10px 0;
+}
+
+/* End of Values (Mision y Vision) */
