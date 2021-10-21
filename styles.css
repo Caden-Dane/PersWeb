@@ -1,3 +1,7 @@
+body{
+  position: relative;
+}
+
 /* Navbar  */
 .logo{
   width: 15vw;
@@ -89,10 +93,16 @@ margin-top: 10vh;
 }
 
 .dataContainer{
-  width: 50vw;
-  overflow-y: scroll;
+  overflow-y: auto;
   margin-left: 2%;
+  position: relative;
+  height: 50vh;
 }
+
+.serviciosSegment{
+  top: 0;
+}
+
 /* End of Servicios */
 
 /* Start of Values (Mision y Vision) */
