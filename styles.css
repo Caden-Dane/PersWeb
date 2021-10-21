@@ -83,14 +83,10 @@ margin-top: 10vh;
 .serviciosContainer{
   display: flex;
   flex-direction: row;
-  height: 50vh;
   width: 100%;
   justify-content: center;
 }
 
-.list-group{
-  width: 20vw;
-}
 
 .dataContainer{
   overflow-y: auto;
