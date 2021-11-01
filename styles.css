@@ -155,6 +155,11 @@ height: auto;
 
 .valuesTitle{
 font-weight: bold;
+text-align: center;
+}
+
+.valuesBody{
+  text-align: justify;
 }
 
 .valuesContent{
