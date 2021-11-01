@@ -46,10 +46,50 @@ margin-top: 10vh;
   
 }
 
+/* .carrouselImg{
+height: auto;
+} */
+
+.carousel-item{
+  max-height: 70vh;
+}
+
 @media only screen and (min-width: 1190px) {
     .carousel-item{
-    height: 80vh;
+    height: auto;
   }
+}
+
+@media only screen and (max-width: 1189px) {
+  .carousel-item{
+  height: auto;
+}
+}
+
+/* Mobile carrousel image adjustments */
+@media only screen and (max-width: 900px) {
+  .carousel-item{
+    height: auto;
+  }
+
+#carrouselImg1{
+  content: url("./resources/img/corvette.jpg");
+}
+#carrouselImg2{
+  content:  url("./resources/img/mercedes.jpg");
+ }
+#carrouselImg3{
+  content:  url("./resources/img/jeep-repair.jpg");
+ }
+ #carrouselImg4{
+  content:  url("./resources/img/savana.jpeg");
+ }
+ #carrouselImg5{
+  content:  url("./resources/img/fiat.jpg");
+ }
+ #carrouselImg6{
+  content:  url("./resources/img/cadillac.jpeg");
+ }
 }
 /* End of Carrousel */
 
