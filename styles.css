@@ -9,6 +9,16 @@ body{
   margin: -10px;
 }
 
+@media only screen and (max-width: 900px) {
+.logo{
+width: auto;
+}
+
+.navbarContainer{
+  margin: 0 5vw;
+}
+}
+
 .navbar{
   position: fixed;
   top: 0;
