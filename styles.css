@@ -111,7 +111,12 @@ height: auto;
 /* End of Quienes Somos */
 
 
-/* Servicios */
+/* Start of Servicios */
+
+.servicesSegment{
+  align-items: center;
+}
+
 .servicioCard{
   padding: 2%;
 }
@@ -119,14 +124,6 @@ height: auto;
 .segmentTitle{
   text-align: center;
 }
-
-.serviciosContainer{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-}
-
 
 .dataContainer{
   overflow-y: auto;
