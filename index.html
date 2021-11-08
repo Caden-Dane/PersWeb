@@ -460,38 +460,41 @@
 <!-- Start of Contacto -->
 <div class="card m-5 p-4 anchors">
   <h3 class="card-title segmentTitle mb-5">Contacto</h3>
-<form>
+<form
+action="https://formspree.io/f/xzbylqzn"
+method="POST"
+>
   <div class="row">
     <div class="form-group col-md-6">
       <label for="inputEmail">Email</label>
-      <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="_replyto" required>
     </div>
     <div class="form-group col-md-6">
       <label for="inputName">Nombre y Apellido</label>
-      <input type="name" class="form-control" id="inputName" placeholder="Nombre y Apellido" required>
+      <input type="name" class="form-control" id="inputName" placeholder="Nombre y Apellido" name="Nombre_Y_Apellido" required>
     </div>
   </div>
 
   <div class="row">
   <div class="form-group col-md-6">
     <label for="inputAddress">Dirección</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Santa Teresa 293">
+    <input type="text" class="form-control" id="inputAddress" placeholder="Santa Teresa 293" name="Direccion">
   </div>
   <div class="form-group col-md-6">
     <label for="inputAddress2">Datos adicionales</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Ej: Casa con rejas verdes, Apartamento, etc">
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Ej: Casa con rejas verdes, Apartamento, etc" name="Datos_Adicionales">
   </div>
   </div>
 
   <div class="row">
     <div class="form-group col-md-6">
       <label for="inputCity">Ciudad</label>
-      <input type="text" class="form-control" id="inputCity">
+      <input type="text" class="form-control" id="inputCity" name="Ciudad">
     </div>
 
     <div class="form-group col-md-6">
       <label for="inputPhone">Telefono</label>
-      <input type="phone" class="form-control" id="inputPhone" required>
+      <input type="phone" class="form-control" id="inputPhone" name="Telefono" required>
     </div>
 
   </div>
@@ -500,96 +503,94 @@
         <div class="col-sm-9 col-md-12 col-lg-9 serviceSelector" id="exampleFormControlSelect2">
 
 
-          <!-- RECHECK VALUE-TAG VALUES -->
-
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" name="Reparación de Chapería automotriz">
             <label class="form-check-label" for="inlineCheckbox1">Reparación de Chapería automotriz</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Encerado de vehículos</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" name="Encerado de vehículos">
+            <label class="form-check-label" for="inlineCheckbox2">Encerado de vehículos</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">Cambio de paneles de Chapa de vehículos</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" name="Cambio de paneles de Chapa de vehículos">
+            <label class="form-check-label" for="inlineCheckbox3">Cambio de paneles de Chapa de vehículos</label>
           </div>
  
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Soldadura de chasis, MIG, Autógena y eléctrica</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4" name="Soldadura de chasis, MIG, Autógena y eléctrica">
+            <label class="form-check-label" for="inlineCheckbox4">Soldadura de chasis, MIG, Autógena y eléctrica</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Encuadre de Chasis y sub-chasis, y base de faros</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5" name="Encuadre de Chasis y sub-chasis, y base de faros">
+            <label class="form-check-label" for="inlineCheckbox5">Encuadre de Chasis y sub-chasis, y base de faros</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Reparaciones de envolventes plásticos y plásticos en general</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6" name="Reparaciones de envolventes plásticos y plásticos en general">
+            <label class="form-check-label" for="inlineCheckbox6">Reparaciones de envolventes plásticos y plásticos en general</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Revitalizaciones de plásticos</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7" name="Revitalizaciones de plásticos">
+            <label class="form-check-label" for="inlineCheckbox7">Revitalizaciones de plásticos</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Pintura a base agua y solvente</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option8" name="Pintura a base agua y solvente">
+            <label class="form-check-label" for="inlineCheckbox8">Pintura a base agua y solvente</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Reparaciones de paragolpes metálicos</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option9" name="Reparaciones de paragolpes metálicos">
+            <label class="form-check-label" for="inlineCheckbox9">Reparaciones de paragolpes metálicos</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Cambio de color de vehículos</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="option10" name="Cambio de color de vehículos">
+            <label class="form-check-label" for="inlineCheckbox10">Cambio de color de vehículos</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Cambio de parabrisas y vidrios en general</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option11" name="Cambio de parabrisas y vidrios en general">
+            <label class="form-check-label" for="inlineCheckbox11">Cambio de parabrisas y vidrios en general</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Pulida de faros</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option12" name="Pulida de faros">
+            <label class="form-check-label" for="inlineCheckbox12">Pulida de faros</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Pulida de vidrios y parabrisas (Eliminación de lluvia ácida)</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option13" name="Pulida de vidrios y parabrisas (Eliminación de lluvia ácida)">
+            <label class="form-check-label" for="inlineCheckbox13">Pulida de vidrios y parabrisas (Eliminación de lluvia ácida)</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Limpieza de tapizados</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="option14" name="Limpieza de tapizados">
+            <label class="form-check-label" for="inlineCheckbox14">Limpieza de tapizados</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Reparaciones de asientos y tapizados en general</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox15" value="option15" name="Reparaciones de asientos y tapizados en general">
+            <label class="form-check-label" for="inlineCheckbox15">Reparaciones de asientos y tapizados en general</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Pulida de vehículo</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox16" value="option16" name="Pulida de vehículo">
+            <label class="form-check-label" for="inlineCheckbox16">Pulida de vehículo</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Reparaciones de carrocería en general</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox17" value="option17" name="Reparaciones de carrocería en general">
+            <label class="form-check-label" for="inlineCheckbox17">Reparaciones de carrocería en general</label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Restauración de automóviles</label>
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox18" value="option18" name="Restauración de automóviles">
+            <label class="form-check-label" for="inlineCheckbox18">Restauración de automóviles</label>
           </div>
 
         </div>
