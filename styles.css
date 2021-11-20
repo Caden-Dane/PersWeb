@@ -189,6 +189,13 @@ text-align: center;
 .datosDeContacto{
   text-align: center;
 }
+
+/* WhatsApp icon  */
+.whatsAppIcon{
+  /* width: 5vw; */
+  height: 8vh;
+}
+
 /* End of Contization */
 
 /* Start of footer */
