@@ -155,8 +155,17 @@ height: auto;
   overflow-anchor: none;
 }
 
+#services-list{
+  z-index: 0;
+}
+
 @media only screen and (max-width: 900px) {
 
+}
+
+/* Scrollspy anchors */
+#detalles, #chasis, #chaperia{
+  padding-top: 80px; 
 }
 
 /* End of Servicios */
