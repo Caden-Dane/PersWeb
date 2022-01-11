@@ -2,6 +2,11 @@ body{
   position: relative;
 }
 
+/* All cards */
+.customBkColor{
+  background-color: #EAEBEE;
+  }
+
 /* Navbar  */
 .logo{
   width: 15vw;
