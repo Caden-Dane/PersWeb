@@ -147,6 +147,18 @@ height: auto;
   height: 50vh;
 }
 
+
+/* Custom request 
+Set the li items in bold but p in normal */
+.dataContainer li{
+  font-weight: bold;
+}
+
+.dataContainer p{
+  font-weight: normal;
+}
+/* End of custom request */
+
 .serviciosSegment{
   top: 0;
 }
