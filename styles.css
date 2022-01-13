@@ -87,23 +87,27 @@ height: auto;
     height: auto;
   }
 
+  .carousel{
+    margin-bottom: -10vh;
+  }
+
 #carrouselImg1{
-  content: url("./resources/img/corvette.jpg");
+  content: url("./resources/img/corvette_mini.jpeg");
 }
 #carrouselImg2{
-  content:  url("./resources/img/mercedes.jpg");
+  content:  url("./resources/img/mercedes_mini.jpeg");
  }
 #carrouselImg3{
-  content:  url("./resources/img/jeep-repair.jpg");
+  content:  url("./resources/img/jeep-repair_mini.jpeg");
  }
  #carrouselImg4{
-  content:  url("./resources/img/savana.jpeg");
+  content:  url("./resources/img/savana_mini.jpeg");
  }
  #carrouselImg5{
   content:  url("./resources/img/fiat.jpg");
  }
  #carrouselImg6{
-  content:  url("./resources/img/cadillac.jpeg");
+  content:  url("./resources/img/cadillac_mini.jpeg");
  }
 }
 /* End of Carrousel */
