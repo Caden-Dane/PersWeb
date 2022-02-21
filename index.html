@@ -10,6 +10,14 @@
   <link rel="stylesheet" href="./styles.css">
   <link rel="icon" type="image/png" href="./resources/logo/black-logo.svg" style="width: 100%;">
 
+  <!-- Global site tag (gtag.js) - Google Ads: 10852327108 --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10852327108"></script> 
+  <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10852327108'); </script>
+
+  <!-- Event snippet for "Envio de formulario para clientes potenciales" conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
+  <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-10852327108/Jt3ECKHL06ADEMS95bYo', 'event_callback': callback }); return false; } </script>
+
+
   <title>Carroceria</title>
 </head>
 
@@ -419,6 +427,7 @@
       </div>
     </div>
   </div>
+
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -433,6 +442,7 @@
       </div>
     </div>
   </div>
+
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -447,6 +457,8 @@
       </div>
     </div>
   </div>
+
+
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
@@ -461,6 +473,8 @@
       </div>
     </div>
   </div>
+  
+
 </div>
 </div>
 <!-- End of FAQ -->
@@ -472,7 +486,7 @@
 <div class="card m-5 p-4 anchors customBkColor">
   <h3 class="card-title segmentTitle mb-5">Contacto</h3>
 <form
-action="https://formspree.io/f/xzbylqzn"
+action="return gtag_report_conversion('https://formspree.io/f/xzbylqzn')"
 method="POST"
 >
   <div class="row">
